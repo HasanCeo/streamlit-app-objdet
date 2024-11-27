@@ -8,7 +8,7 @@ st.title("YOLO Nesne Tespiti Uygulaması")
 # Modeli yükle
 @st.cache_resource  # Model yüklemesini önbelleğe alır
 def load_model():
-    return YOLO("yolov8s.pt")
+    return YOLO("yolo11s.pt")
 
 model = load_model()
 
